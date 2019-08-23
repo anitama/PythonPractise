@@ -23,4 +23,7 @@ def test_m3(setup):
     driver.find_element_by_xpath("//input[@value='Log In']").click()
     assert driver.title=="Facebook","assertion failed due to invalid title"
 
+def test_m4(setup):
+    print("Newly added Method in the class")
+
 
